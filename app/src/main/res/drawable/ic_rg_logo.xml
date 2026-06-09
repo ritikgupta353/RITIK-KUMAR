@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 1. Rich Obsidian Cyber Background Card -->
+    <path
+        android:fillColor="#070B14"
+        android:pathData="M50,2 C23.5,2 2,23.5 2,50 C2,76.5 23.5,98 50,98 C76.5,98 98,76.5 98,50 C98,23.5 76.5,2 50,2 Z" />
+
+    <!-- 2. Cyber-Tech Glowing Outer Radial Ring -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"
+        android:pathData="M50,4 C24.6,4 4,24.6 4,50 C4,75.4 24.6,96 50,96 C75.4,96 96,75.4 96,50 C96,24.6 75.4,4 50,4 Z" />
+    <path
+        android:strokeColor="#FF6D00"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.75"
+        android:pathData="M50,6 C25.7,6 6,25.7 6,50 C6,74.3 25.7,94 50,94 C74.3,94 94,74.3 94,50 C94,25.7 74.3,6 50,6 Z" />
+
+    <!-- 3. Dynamic Tech Circuit Grid Backdrop Dots -->
+    <path android:fillColor="#1E293B" android:pathData="M25,25 h1 v1 h-1 z" />
+    <path android:fillColor="#1E293B" android:pathData="M75,25 h1 v1 h-1 z" />
+    <path android:fillColor="#1E293B" android:pathData="M25,75 h1 v1 h-1 z" />
+    <path android:fillColor="#1E293B" android:pathData="M75,75 h1 v1 h-1 z" />
+    <path android:fillColor="#1E293B" android:pathData="M50,14 h1 v1 h-1 z" />
+    <path android:fillColor="#1E293B" android:pathData="M50,86 h1 v1 h-1 z" />
+
+    <!-- 4. Majestic Central Dual-Tone Shield -->
+    <!-- Gold / Amber outer solid border -->
+    <path
+        android:fillColor="#131D31"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M50,20 L68,25 C68,48 59,68 50,75 C41,68 32,48 32,25 Z" />
+    <!-- Secondary inner neon orange shield stroke -->
+    <path
+        android:strokeColor="#FF6D00"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:pathData="M50,24 L64,28 C64,45 57,61 50,68 C43,61 36,45 36,28 Z" />
+
+    <!-- 5. High-Contrast QR Matrix Blocks Inside Shield -->
+    <!-- Top-Left Locator -->
+    <path android:fillColor="#FFB300" android:pathData="M40,30 h6 v6 h-6 z" />
+    <path android:fillColor="#131D31" android:pathData="M41,31 h4 v4 h-4 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M42,32 h2 v2 h-2 z" />
+
+    <!-- Top-Right Locator -->
+    <path android:fillColor="#FFB300" android:pathData="M54,30 h6 v6 h-6 z" />
+    <path android:fillColor="#131D31" android:pathData="M55,31 h4 v4 h-4 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M56,32 h2 v2 h-2 z" />
+
+    <!-- Bottom-Left Locator -->
+    <path android:fillColor="#FFB300" android:pathData="M40,44 h6 v6 h-6 z" />
+    <path android:fillColor="#131D31" android:pathData="M41,45 h4 v4 h-4 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M42,46 h2 v2 h-2 z" />
+
+    <!-- Matrix Data Dots (White / Cyan / Orange representing a burning forge) -->
+    <path android:fillColor="#00E5FF" android:pathData="M54,44 h2 v2 h-2 z" />
+    <path android:fillColor="#FF6D00" android:pathData="M58,44 h2 v2 h-2 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M54,48 h2 v2 h-2 z" />
+    <path android:fillColor="#00E5FF" android:pathData="M58,48 h2 v2 h-2 z" />
+    <path android:fillColor="#FF6D00" android:pathData="M54,52 h2 v2 h-2 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M58,52 h2 v2 h-2 z" />
+    <path android:fillColor="#00E5FF" android:pathData="M44,54 h2 v2 h-2 z" />
+    <path android:fillColor="#FFB300" android:pathData="M48,54 h2 v2 h-2 z" />
+
+    <!-- 6. Futuristic Cyber Letter "R" (Left side) -->
+    <!-- Cyan glow backdrop shadow layer -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M11,36 h13 c4,0 6,2 6,6 c0,3 -2,5 -5,5 l6,10 h-5 l-5,-10 h-5 v10 h-5 z M16,40 v4 h7 c1.5,0 2,-1 2,-2 c0,-1 -0.5,-2 -2,-2 z" />
+    <!-- Bright neon white-cyan core foreground -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M12,37 h11 c3.5,0 5.5,1.5 5.5,4.5 c0,2.5 -2,4 -5,4 l5.5,10 h-3.5 l-5,-10 h-4 v10 h-3 v-18.5 z M16.5,39.5 v3 h6 c2,0 2,-1 2,-1.5 c0,-1.5 -1,-1.5 -2,-1.5 z" />
+
+    <!-- 7. Futuristic Cyber Letter "G" (Right side) -->
+    <!-- Navy / Blue backdrop shadow layer -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M89,41 h-5 v-3 h-11 c-4,0 -6,2 -6,6 v5 c0,4 2,6 6,6 h12 c3,0 4,-2 4,-6 v-5 h-9 v4 h4 v3 h-11 c-2,0 -2,-3 -2,-7 v0 c0,-4 1,-3 3,-3 h8 h7 z" />
+    <!-- Bright neon white-cyan core foreground -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M88,40 h-5 v-3 h-11 c-4,0 -6,2 -6,6 v5 c0,4 2,6 6,6 h12 c3,0 4,-2 4,-6 v-5 h-9 v4 h4 v3 h-11 c-2,0 -2,-3 -2,-7 v0 c0,-4 1,-3 3,-3 h8 h7 z" />
+
+    <!-- 8. Premium Decorative Subtext -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M38,82 h24 v1 h-24 z" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "RG QR FORGE",
+  "description": "Modern QR Code Generator under Jetpack Compose supporting URL Links, Payments (UPI/PayPal), Images (Base64 compression), Custom Color themes, Corner styling, and Share/Download functions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
